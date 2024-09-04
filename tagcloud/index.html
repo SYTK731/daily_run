@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tag-cloud">
+        <!-- タグクラウドアイコンがここに表示されます -->
+    </div>
+    <div id="info-panel" style="display: none;">
+        <!-- クリックされたアイコン情報表示 -->
+    </div>
+    <div id="tag-form">
+        <h2>新しいタグを追加</h2>
+        <form action="" id="add-tag-form">
+            <label for="tag-name">タグ名:</label>
+            <input type="text" id="tag-name" name="tag-name" required>
+            <label for="tag-info">タグ情報:</label>
+            <input type="text" id="tag-info" name="tag-info" required>
+            <button type="submit">追加</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
